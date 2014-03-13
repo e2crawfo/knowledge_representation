@@ -3,59 +3,58 @@
 ### Closing the loop
 
 Trevor Bekolay <br>
-Centre for Theoretical Neuroscience
+Centre for Theoretical Neuroscience <br>
+Follow along: <http://bekolay.org/comp2>
 
+---Right---
 
+Speech recognition and synthesis is everywhere
 
-img: Speech recognition silo, speech synthesis silo
+<iframe src="http://talktyper.com/" width="800"></iframe>
 
-then they break... maybe by a falling brain?
+---Right---
 
-Note: Current approach to auditory processing in CS.
+<object type="image/svg+xml" data="img/silos.svg" width="500"></object>
 
+<object type="image/svg+xml" data="img/recognition.svg" width="890" class="fragment"></object>
 
+---Right---
 
-<object type="image/svg+xml" data="img/longterm.svg" width="800"></object>
+<object type="image/svg+xml" data="img/longterm.svg" width="700"></object>
 
-(make different from in the proposal)
+---Down---
 
-Note: Ideal long-term goal of this line of research
-
-
-<object type="image/svg+xml" data="img/kroger.svg" width="800"></object>
+<object type="image/svg+xml" data="img/kroger.svg" width="550"></object>
 
 ----
 
 <small>Towards a neurocomputational model of speech production and
-perception. Kroger et al. *Speech Communication*, **51**(9):793–809,
+perception.<br>Kroger et al. *Speech Communication*, **51**(9):793–809,
 2009.</small>
 
+---Right---
 
+<object type="image/svg+xml" data="img/birdsong.svg" width="800"></object>
 
-<object type="image/svg+xml" data="img/shortterm.svg" width="890"></object>
+----
 
-Note: My project!
+<small>Neural network models of birdsong production, learning, and
+coding.<br>Fiete & Seung. In *The New Encyclopedia of
+Neuroscience*(New York: Elsevier), 2008.</small>
 
+---Right---
 
+<object type="image/svg+xml" data="img/shortterm.svg" width="800"></object>
+
+---Right---
 
 <object type="image/svg+xml" data="img/template.svg" width="600"></object>
 
-Note: Let's talk about the "recognition" part.
-The idea is to build up a "template" of what each
-word in the vocabulary sounds like,
-so that we can later try to mimic it.
-
-
-
-<object type="image/svg+xml" data="img/recognition.svg" width="890"></object>
-
-Note: Here's how computers do it.
-
-
+---Right---
 
 <object type="image/svg+xml" data="img/periphery-anatomy.svg" width="890"></object>
 
-
+---Right---
 
 <object type="image/svg+xml" data="img/zilany.svg" width="890"></object>
 
@@ -63,73 +62,146 @@ Note: Here's how computers do it.
 
 <small>A phenomenological model of the synapse between the inner hair
 cell and auditory nerve: long-term adaptation with power-law
-dynamics. Zilany, et al. *The Journal of the Acoustical Society
+dynamics.<br>Zilany, et al. *The Journal of the Acoustical Society
 of America*, **126**:2390–2412, 2009.</small>
 
-Note: We're going to use a biologically plausible frontend,
-which may give some benefits for accuracy, but is also
-for keeping information in the same format.
+---Right---
 
+<object type="image/svg+xml" data="img/template.svg" width="600"></object>
 
+---Right---
 
 $$\Delta \omega\_{ij} \propto a\_i [S
   \underbrace{e\_j \cdot E}\_{\color{blue}{\text{ Supervised}}}
   + (1 - S) \,
   \underbrace{a\_j (a\_j - \theta)}\_{\color{blue}{\text{ Unsupervised}}}]$$
 
-img: rnn
+<br><object type="image/svg+xml" data="img/ctc.svg" width="800" class="fragment"></object>
 
 ----
 
-<small>Simultaneous unsupervised and supervised learning of cognitive
-functions in biologically plausible spiking neural networks. Bekolay
+<small>Connectionist temporal classification: labelling unsegmented
+sequence data with recurrent neural networks.<br>Graves et al. In
+*Proceedings of the 23rd international conference on Machine
+learning*, pages 369–376. ACM, 2006.<br><br>
+Simultaneous unsupervised and supervised learning of cognitive
+functions in biologically plausible spiking neural networks.<br>Bekolay
 et al. In *Proceedings of the 35th Annual Conference of the Cognitive
 Science Society*, pages 169–174, 2013.</small>
 
-Note: This has been done before, but now we're incorporating
-temporal information. Look up the RNN thing...
+---Right---
 
+<object type="image/svg+xml" data="img/template.svg" width="600"></object>
 
+---Right---
 
 <object type="image/svg+xml" data="img/path-integrator.svg" width="600"></object>
 
 ----
 
 <small>A controlled attractor network model of path integration in the
-rat. Conklin & Eliasmith. *Journal of Computational Neuroscience*,
+rat.<br>Conklin & Eliasmith. *Journal of Computational Neuroscience*,
 **18**:183–203, 2005.</small>
 
-Note: Oliver's stuff
+---Right---
 
+<object type="image/svg+xml" data="img/template.svg" width="600"></object>
 
+---Right---
 
 <object type="image/svg+xml" data="img/trajectory-average.svg" width="890"></object>
 
 ----
 
 <small>Stimulus onset quenches neural variability: a widespread
-cortical phenomenon. Churchland et al. *Nature Neuroscience* **13**,
+cortical phenomenon.<br>Churchland et al. *Nature Neuroscience* **13**,
 369-378, 2010</small>
 
-Note: Some kind of averaging of nonlinearities?
-
-
+---Right---
 
 <object type="image/svg+xml" data="img/motor.svg" width="400"></object>
 
-Note: Okay, so now we've got a list of words and a template
-of what each word sounds like. Now we want to mimic that sound.
+---Right---
 
+<object type="image/svg+xml" data="img/birkholz.svg" width="750"></object>
 
+----
 
-<object type="image/svg+xml" data="img/birkholz.svg" width="800"></object>
+<small>Modeling consonant-vowel coarticulation for articulatory speech
+synthesis.<br>Birkholz. *PloS one*, **8**(4):e60603, 2013.</small>
 
-Note: We'll do this, again, in a biologically plausible way;
-this thing models the human vocal tract.
+---Right---
 
+<div style="display:inline-block; width:320px;">
+  <video width="320" height="240" controls preload="auto">
+    <source src="media/guten-tag.ogg" type="video/ogg">
+  </video>
+</div>
 
+<div style="display:inline-block; width:500px; text-align:left;">
+  <audio controls preload="auto">
+    <source src="media/s1-neutral.wav" type="audio/wav">
+  </audio>
+  Normal
 
-<table id="birkholz-params">
+  <audio controls preload="auto">
+    <source src="media/s1-anger.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Angry</span>
+
+  <audio controls preload="auto">
+    <source src="media/s1-boredom.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Bored</span>
+
+  <audio controls preload="auto">
+    <source src="media/s1-disgust.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Disgusted</span>
+
+  <audio controls preload="auto">
+    <source src="media/s1-fear.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Scared</span>
+
+  <audio controls preload="auto">
+    <source src="media/s1-happiness.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Happy</span>
+
+  <audio controls preload="auto">
+    <source src="media/s1-sadness.wav" type="audio/wav">
+  </audio>
+  <span class="secret">Sad</span>
+</div>
+
+----
+
+<small>
+<http://www.vocaltractlab.de/index.php?page=vocaltractlab-examples> <br>
+<http://www.vocaltractlab.de/index.php?page=birkholz-supplements>
+</small>
+
+---Right---
+
+<video width="500" controls preload="auto">
+  <source src="media/dona-nobis.ogg" type="video/ogg">
+</video>
+
+<video width="500" controls preload="auto">
+  <source src="media/salvete.mp4" type="video/mp4">
+</video>
+
+----
+
+<small>
+<http://www.vocaltractlab.de/index.php?page=vocaltractlab-examples> <br>
+<http://www.vocaltractlab.de/index.php?page=birkholz-supplements>
+</small>
+
+---Right---
+
+<table id="birkholz-params" class="reveal">
   <tr>
     <th>Name</th>
     <th>Description</th>
@@ -300,20 +372,24 @@ this thing models the human vocal tract.
   </tr>
 </table>
 
-Note: However, it's a 23-degree of freedom control problem.
-That's not good. People have learned to control it relatively well though.
+---Right---
 
+![Operational space control](img/osc.gif)
 
+---Right---
 
-audio: Birkholz synthesis examples
+<object type="image/svg+xml" data="img/learn-osc.svg" width="890"></object>
 
-Note: Here are some examples. Done by looking at detailed MRI images.
+----
 
+<small> Learning to control in operational space.<br> Peters & Schaal.
+*The International Journal of Robotics Research* **27**(2), 197-212,
+2008 </small>
 
+---Right---
 
-img: motor learning through reinforcement
+## Thank you
 
-Note: We should probably start from there, but then we should
-get better through reinforcement.
-We can tell how good we're doing by comparing our utterance to
-the template utterance.
+This presentation: <http://bekolay.org/comp2>
+
+My progress: <http://github.com/tbekolay/audition>
