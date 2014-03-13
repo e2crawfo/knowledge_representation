@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 351.57001 397.05999">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect ry="17.173" height="330.58" width="345.57" y="63.48" x="3" fill="#decbe4"/>
+ <text font-size="40px" font-family="Arial" xml:space="preserve" style="letter-spacing:0px;word-spacing:0px;" font-style="normal" font-stretch="normal" font-variant="normal" y="23.384766" x="41.075619" font-weight="normal" line-height="125%" fill="#000000"><tspan y="23.384766" x="41.075619" font-size="28px">Audio waveform</tspan></text>
+ <text font-size="40px" font-family="Arial" xml:space="preserve" style="letter-spacing:0px;word-spacing:0px;" font-style="normal" font-stretch="normal" font-variant="normal" y="104.89964" x="-416.71356" font-weight="normal" line-height="125%" fill="#000000"><tspan y="104.89964" x="-416.71356"/></text>
+ <text font-size="40px" font-family="Arial" xml:space="preserve" transform="matrix(0,1,-1,0,0,0)" line-height="125%" font-stretch="normal" font-variant="normal" y="-305.23529" x="139.09885" font-weight="normal" style="letter-spacing:0px;word-spacing:0px;" font-style="normal" fill="#000000"><tspan font-size="28px" y="-305.23529" x="139.09885" fill="#0000ff">Motor learning</tspan></text>
+ <path style="direction:ltr;enable-background:accumulate;baseline-shift:baseline;block-progression:tb;text-indent:0;color:#000000;text-transform:none;text-align:start;" fill="#000" d="m137.23,31.7,0,47.219,2.5,0,0-47.219-2.5,0z"/>
+ <path stroke-linejoin="round" d="m132.44,44.76,6.0265-16.389,6.0266,16.389c-3.5582-2.6182-8.4262-2.6031-12.053,0z" fill-rule="evenodd" stroke-width="0.625"/>
+ <rect ry="14.142" height="71.309" width="250.86" y="76.18" x="15.17" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="28px" line-height="110.00000238%" font-stretch="normal" font-variant="normal" y="103.50389" x="139.99274" font-weight="normal" font-style="normal" fill="#000000"><tspan y="103.50389" x="139.99274" style="text-anchor:middle;text-align:center;" line-height="110.00000238%">Birkholz</tspan><tspan y="134.30388" x="139.99274" style="text-anchor:middle;text-align:center;" line-height="110.00000238%">synthesizer</tspan></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="194.72" x="15.18" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="40px" line-height="125%" font-stretch="normal" font-variant="normal" y="240.40286" x="95.723206" font-weight="normal" font-style="normal" fill="#000000"><tspan y="240.40286" x="95.723206" font-size="28px">Control</tspan></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="313.28" x="15.17" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="40px" line-height="125%" font-stretch="normal" font-variant="normal" y="356.00931" x="68.816956" font-weight="normal" font-style="normal" fill="#000000"><tspan y="356.00931" x="68.816956" font-size="28px">Error signal</tspan></text>
+ <path style="direction:ltr;enable-background:accumulate;baseline-shift:baseline;block-progression:tb;text-indent:0;color:#000000;text-transform:none;text-align:start;" fill="#000" d="m139.34,266.03,0,47.25,2.5,0,0-47.25-2.5,0z"/>
+ <path stroke-linejoin="round" d="m134.55,279.11,6.0265-16.389,6.0266,16.389c-3.5582-2.6182-8.4262-2.6031-12.053,0z" fill-rule="evenodd" stroke-width="0.625"/>
+ <path style="direction:ltr;enable-background:accumulate;baseline-shift:baseline;block-progression:tb;text-indent:0;color:#000000;text-transform:none;text-align:start;" fill="#000" d="m139.34,147.5,0,47.219,2.5,0,0-47.219-2.5,0z"/>
+ <path stroke-linejoin="round" d="m134.55,160.56,6.0265-16.389,6.0266,16.389c-3.5582-2.6182-8.4262-2.6031-12.053,0z" fill-rule="evenodd" stroke-width="0.625"/>
+</svg>

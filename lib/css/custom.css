@@ -1,1 +1,8 @@
-/* Put custom CSS in here */
+#birkholz-params {
+  font-size: 60%;
+  line-height: 100%;
+}
+
+#birkholz-params td, #birkholz-params th {
+  padding-right: 2em;
+}

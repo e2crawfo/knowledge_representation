@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 630.43 423.22">
+ <defs></defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect ry="17.173" height="332.81" width="624.43" y="87.41" x="3.0025" fill="#decbe4"/>
+ <text font-size="40px" line-height="125%" font-family="Arial" style="letter-spacing:0px;word-spacing:0px;" font-style="normal" font-stretch="normal" xml:space="preserve" font-variant="normal" y="23.384766" x="392.15924" font-weight="normal" fill="#000000"><tspan y="23.384766" x="392.15924" font-size="28px">Audio waveform</tspan></text>
+ <text font-size="40px" line-height="125%" font-family="Arial" style="letter-spacing:0px;word-spacing:0px;" font-style="normal" font-stretch="normal" xml:space="preserve" font-variant="normal" y="132.89964" x="351.69641" font-weight="normal" fill="#000000"><tspan y="132.89964" x="351.69641"/></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="104.17" x="366.26" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="40px" font-style="normal" font-stretch="normal" font-variant="normal" y="146.90388" x="412.961" font-weight="normal" line-height="125%" fill="#000000"><tspan y="146.90388" x="412.961" font-size="28px">Zilany Model</tspan></text>
+ <text font-size="40px" line-height="125%" font-family="Arial" transform="matrix(0,-1,1,0,0,0)" font-style="normal" font-stretch="normal" xml:space="preserve" font-variant="normal" y="37.671383" x="-363.82907" font-weight="normal" style="letter-spacing:0px;word-spacing:0px;" fill="#0000ff"><tspan font-size="28px" y="37.671383" x="-363.82907" fill="#0000ff">Template learning</tspan></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="171.96" x="60.571" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="40px" font-style="normal" font-stretch="normal" font-variant="normal" y="217.6319" x="127.51442" font-weight="normal" line-height="125%" fill="#000000"><tspan y="217.6319" x="127.51442" font-size="28px">Classifier</tspan></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="222.73" x="366.26" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="40px" font-style="normal" font-stretch="normal" font-variant="normal" y="265.45657" x="398.5235" font-weight="normal" line-height="125%" fill="#000000"><tspan y="265.45657" x="398.5235" font-size="28px">Path integrator</tspan></text>
+ <rect ry="14.142" height="71.309" width="250.86" y="341.28" x="366.26" fill="#FFF"/>
+ <text style="letter-spacing:0px;word-spacing:0px;" font-family="Arial" xml:space="preserve" font-size="28px" font-style="normal" font-stretch="normal" font-variant="normal" y="370.77106" x="491.94342" font-weight="normal" line-height="110.00000238%" fill="#000000"><tspan y="370.77106" x="491.94342" style="text-anchor:middle;text-align:center;" line-height="110.00000238%">Template utterance</tspan><tspan y="401.57104" x="491.94342" style="text-anchor:middle;text-align:center;" line-height="110.00000238%">memory</tspan></text>
+ <path style="baseline-shift:baseline;block-progression:tb;color:#000000;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;" fill="#000" d="m490.97,26.594-0.375,77.562,2.5,0.0312,0.375-77.562-2.5-0.03125z"/>
+ <path stroke-linejoin="round" d="m497.96,91.125-6.1045,16.36-5.9485-16.417c3.5456,2.6352,8.4138,2.6432,12.053,0.05737z" fill-rule="evenodd" stroke-width="0.625"/>
+ <path style="baseline-shift:baseline;block-progression:tb;color:#000000;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;" fill="#000" d="m367.31,166.12-57.469,12.75,0.53125,2.4375,57.469-12.75-0.53125-2.4375z"/>
+ <path stroke-linejoin="round" d="m324.19,183.17-17.305-2.3357,14.696-9.4316c-1.7859,4.0406-0.71721,8.79,2.6093,11.767z" fill-rule="evenodd" stroke-width="0.625"/>
+ <path style="baseline-shift:baseline;block-progression:tb;color:#000000;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;" fill="#000" d="m490.44,175.47,0,47.25,2.5,0,0-47.25-2.5,0z"/>
+ <path stroke-linejoin="round" d="m497.74,209.65-6.0265,16.389-6.0266-16.389c3.5582,2.6182,8.4262,2.6031,12.053,0z" fill-rule="evenodd" stroke-width="0.625"/>
+ <path style="baseline-shift:baseline;block-progression:tb;color:#000000;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;" fill="#000" d="m311.62,227.22-0.40625,2.4688,54.844,9.0938,0.40625-2.4688-54.844-9.0938z"/>
+ <path stroke-linejoin="round" d="m354.35,229.43,15.18,8.6303-17.155,3.2599c3.1659-3.0811,3.9485-7.8859,1.9749-11.89z" fill-rule="evenodd" stroke-width="0.625"/>
+ <path style="baseline-shift:baseline;block-progression:tb;color:#000000;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;" fill="#000" d="m490.44,294.03,0,47.25,2.5,0,0-47.25-2.5,0z"/>
+ <path stroke-linejoin="round" d="m497.74,328.21-6.0265,16.389-6.0266-16.389c3.5582,2.6182,8.4262,2.6031,12.053,0z" fill-rule="evenodd" stroke-width="0.625"/>
+</svg>
