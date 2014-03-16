@@ -1,4 +1,4 @@
-### Biologically inspired methods in speech recognition and synthesis:
+### Biologically inspired methods in<br>speech recognition and synthesis:
 
 ### Closing the loop
 
@@ -8,47 +8,86 @@ Follow along: <http://bekolay.org/comp2>
 
 ---Right---
 
-Speech recognition and synthesis is everywhere
-
-<iframe src="http://talktyper.com/" width="800"></iframe>
-
----Right---
-
-<object type="image/svg+xml" data="img/silos.svg" width="500"></object>
-
-<object type="image/svg+xml" data="img/recognition.svg" width="890" class="fragment"></object>
-
----Right---
-
-<object type="image/svg+xml" data="img/longterm.svg" width="700"></object>
-
----Down---
-
-<object type="image/svg+xml" data="img/kroger.svg" width="550"></object>
+<video width="950" controls preload="auto">
+  <source src="media/manual-feedback.mp4" type="video/mp4">
+</video>
 
 ----
 
-<small>Towards a neurocomputational model of speech production and
-perception.<br>Kroger et al. *Speech Communication*, **51**(9):793–809,
-2009.</small>
+<small>
+  <https://www.youtube.com/watch?v=uKKpjvPd6Xo>
+  <!-- <https://www.youtube.com/watch?v=uF55KRuqPH8> -->
+  <!-- <https://www.youtube.com/watch?v=ujmQlgNWZn4> -->
+</small>
 
 ---Right---
 
-<object type="image/svg+xml" data="img/birdsong.svg" width="800"></object>
+<object type="image/svg+xml" data="img/synth.svg" width="700"></object>
 
-----
+<div class="fragment">
+  $$\underset{u}{\operatorname{argmin}} \:
+   \overbrace{\sum\_{1,n} C(u\_n, t\_n)}^{\color{blue}{\text{Target cost}}} \:\:
+   \overbrace{\sum\_{2,n} C(u\_{n-1}, u\_n)}^{\color{blue}{\text{Join cost}}}$$
+</div>
 
-<small>Neural network models of birdsong production, learning, and
-coding.<br>Fiete & Seung. In *The New Encyclopedia of
-Neuroscience*(New York: Elsevier), 2008.</small>
-
----Right---
-
-<object type="image/svg+xml" data="img/shortterm.svg" width="800"></object>
+<object type="image/svg+xml" data="img/synth-hmm.svg" width="500" class="fragment"></object>
 
 ---Right---
 
-<object type="image/svg+xml" data="img/template.svg" width="600"></object>
+<iframe src="http://talktyper.com/" width="800" height="400"></iframe>
+
+<div class="fragment">
+  Lots of data + lots of compute power
+</div>
+
+---Right---
+
+### Goal
+
+Train an
+<span class="fragment highlight-red" data-fragment-index="1">
+  articulatory synthesizer</span> to repeat utterances.<br>
+
+<object type="image/svg+xml" data="img/goal.svg" width="500"></object>
+
+<div class="fragment" data-fragment-index="1">
+  <audio controls preload="auto">
+    <source src="media/gnuspeech.wav" type="audio/wav">
+  </audio>
+</div>
+
+---Right---
+
+<object type="image/svg+xml" data="img/min.svg" width="860"></object>
+
+---Right---
+
+### Method
+
+<object type="image/svg+xml" data="img/arm.svg" width="300"></object>
+
+<div class="fragment">
+  \begin{eqnarray}
+    \mathbf{x} \Rightarrow & \text{End-effector position}
+        & \Rightarrow \text{Auditory features} \\\\
+    \mathbf{q} \Rightarrow & \text{Joint coordinates}
+        & \Rightarrow \text{Control parameters} \\\\
+  \end{eqnarray}
+</div>
+<br>
+<div class="fragment">
+  $\text{Control signal:} \quad
+    (\mathbf{q}, \mathbf{\dot{q}}, \mathbf{\ddot{x}_d})
+    \rightarrow \mathbf{u}$
+</div>
+
+---Right---
+
+<object type="image/svg+xml" data="img/min-vars.svg" width="860"></object>
+
+<div class="fragment">
+  $$\text{Evaluation: } E = \int d(\mathbf{x_d}, \mathbf{x})$$
+</div>
 
 ---Right---
 
@@ -67,63 +106,23 @@ of America*, **126**:2390–2412, 2009.</small>
 
 ---Right---
 
-<object type="image/svg+xml" data="img/template.svg" width="600"></object>
-
----Right---
-
-$$\Delta \omega\_{ij} \propto a\_i [S
-  \underbrace{e\_j \cdot E}\_{\color{blue}{\text{ Supervised}}}
-  + (1 - S) \,
-  \underbrace{a\_j (a\_j - \theta)}\_{\color{blue}{\text{ Unsupervised}}}]$$
-
-<br><object type="image/svg+xml" data="img/ctc.svg" width="800" class="fragment"></object>
+<img src="img/cochleagram.png", width="500">
 
 ----
 
-<small>Connectionist temporal classification: labelling unsegmented
-sequence data with recurrent neural networks.<br>Graves et al. In
-*Proceedings of the 23rd international conference on Machine
-learning*, pages 369–376. ACM, 2006.<br><br>
-Simultaneous unsupervised and supervised learning of cognitive
-functions in biologically plausible spiking neural networks.<br>Bekolay
-et al. In *Proceedings of the 35th Annual Conference of the Cognitive
-Science Society*, pages 169–174, 2013.</small>
+<small> <http://www.cs.colostate.edu/~ericson/ericsonFinal.pdf><br> A
+  computational model of filtering, detection, and compression in the
+  cochlea.<br>R. F. Lyon. In *Proceedings of IEEE-ICASSP-82*,
+  1282-1285, 1982.
+</small>
 
 ---Right---
 
-<object type="image/svg+xml" data="img/template.svg" width="600"></object>
+<object type="image/svg+xml" data="img/min-vars.svg" width="860"></object>
 
 ---Right---
 
-<object type="image/svg+xml" data="img/path-integrator.svg" width="600"></object>
-
-----
-
-<small>A controlled attractor network model of path integration in the
-rat.<br>Conklin & Eliasmith. *Journal of Computational Neuroscience*,
-**18**:183–203, 2005.</small>
-
----Right---
-
-<object type="image/svg+xml" data="img/template.svg" width="600"></object>
-
----Right---
-
-<object type="image/svg+xml" data="img/trajectory-average.svg" width="890"></object>
-
-----
-
-<small>Stimulus onset quenches neural variability: a widespread
-cortical phenomenon.<br>Churchland et al. *Nature Neuroscience* **13**,
-369-378, 2010</small>
-
----Right---
-
-<object type="image/svg+xml" data="img/motor.svg" width="400"></object>
-
----Right---
-
-<object type="image/svg+xml" data="img/birkholz.svg" width="750"></object>
+<object type="image/svg+xml" data="img/birkholz.svg" width="890"></object>
 
 ----
 
@@ -150,29 +149,9 @@ synthesis.<br>Birkholz. *PloS one*, **8**(4):e60603, 2013.</small>
   <span class="secret">Angry</span>
 
   <audio controls preload="auto">
-    <source src="media/s1-boredom.wav" type="audio/wav">
-  </audio>
-  <span class="secret">Bored</span>
-
-  <audio controls preload="auto">
-    <source src="media/s1-disgust.wav" type="audio/wav">
-  </audio>
-  <span class="secret">Disgusted</span>
-
-  <audio controls preload="auto">
     <source src="media/s1-fear.wav" type="audio/wav">
   </audio>
   <span class="secret">Scared</span>
-
-  <audio controls preload="auto">
-    <source src="media/s1-happiness.wav" type="audio/wav">
-  </audio>
-  <span class="secret">Happy</span>
-
-  <audio controls preload="auto">
-    <source src="media/s1-sadness.wav" type="audio/wav">
-  </audio>
-  <span class="secret">Sad</span>
 </div>
 
 ----
@@ -374,17 +353,86 @@ synthesis.<br>Birkholz. *PloS one*, **8**(4):e60603, 2013.</small>
 
 ---Right---
 
-![Operational space control](img/osc.gif)
+<object type="image/svg+xml" data="img/min-vars.svg" width="860"></object>
+
 
 ---Right---
 
-<object type="image/svg+xml" data="img/learn-osc.svg" width="890"></object>
+<img src="img/osc.gif" width="444">
+
+<div class="fragment">
+  <img src="img/cochleagram.png" width="250">
+  <img src="img/mouth.png" width="178">
+</div>
+
+----
+
+<small><http://studywolf.wordpress.com/></small>
+
+---Right---
+
+\begin{eqnarray}
+ \min\_u C(\mathbf{u}) =& \mathbf{u^T N u} \quad
+  \text{s.t. } \mathbf{J \ddot{q}}
+  = \mathbf{\ddot{x}}\_\text{ref} - \mathbf{\dot{J} \dot{q}} \\\\
+ \mathbf{\ddot{x}}\_\text{ref} =& \mathbf{\ddot{x}\_d} + \mathbf{K}\_d
+  (\mathbf{\dot{x}}\_d - \mathbf{\dot{x}}) + \mathbf{K}\_p
+  (\mathbf{x}\_d - \mathbf{x})
+\end{eqnarray}
+
+<object type="image/svg+xml" data="img/learn-osc.svg" width="600" class="fragment"></object>
 
 ----
 
 <small> Learning to control in operational space.<br> Peters & Schaal.
 *The International Journal of Robotics Research* **27**(2), 197-212,
 2008 </small>
+
+---Right---
+
+### Extension 1
+
+Generalize several utterances of the same category
+
+<object type="image/svg+xml" data="img/goal-1.svg" width="500"></object>
+
+<div class="fragment">
+  Evaluation: User studies
+  <hr>
+  <small>
+    Learning movement primitives. Schaal et al.<br>
+    *Robotics Research* 561-572, 2005.<br>
+    Learning attractor landscapes for learning motor primitives.<br>
+    Ijspeert et al. *NIPS 2003*: 1547-1554, 2003.
+  </small>
+</div>
+
+---Right---
+
+### Extension 2
+
+Classify utterances corresponding
+to different categories
+
+<object type="image/svg+xml" data="img/goal-2.svg" width="500"></object>
+
+<div class="fragment">
+  <hr>
+  <small>
+    Extensions of recurrent neural network language model.<br>
+    Mikolov et al. In *ICASSP 2011*, 2011.<br>
+    Learning recurrent neural networks with hessian-free optimization.<br>
+    Martens & Sutskever. *ICML '11*, 2011.
+  </small>
+</div>
+
+---Right---
+
+<object type="image/svg+xml" data="img/goal.svg" width="500"></object>
+
+<br>
+
+<object type="image/svg+xml" data="img/min-vars.svg" width="860"></object>
 
 ---Right---
 
