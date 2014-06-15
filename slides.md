@@ -1,18 +1,52 @@
-### Biologically inspired methods in<br>speech recognition and synthesis:
+### Knowledge Representation <br> with the Semantic Pointer Architecture:
 
-### Closing the loop
+### Nengo Summer School 2014
 
-Trevor Bekolay <br>
+Eric Crawford <br>
 Centre for Theoretical Neuroscience <br>
-Follow along: <http://bekolay.org/comp2>
 
 ---Right---
 
-<video width="950" controls preload="auto">
-  <source src="media/manual-feedback.mp4" type="video/mp4">
-</video>
+Our formalization of knowledge:
+Semantic Networks
 
-----
+WordNet
+
+Graph-like stucture.
+Node are concepts, edges are relations between concepts.
+
+Edges are labelled with type of relation:
+is a kind of, is an instance of, is a part of, is a member of,
+is a substance of
+
+---Right---
+
+Goal: encode an arbitrary semantic network in a network of spiking neurons.
+
+Getting more specific:
+
+<ol>
+<li>Establish a vector encoding of the semantic network. Assignment of vectors to each concept and each relation type.</li>
+<li>Create a neural network that can "traverse" the semantic network.</li>
+</ol>
+
+---Right---
+
+In other words, we want to fill in the blanks in the following network:
+
+
+---Right---
+Encoding relational structure.
+
+Edge-list representation of a graph. Can store this using role-filler
+construction we have seen before with semantic pointers.
+
+<div class="fragment">
+  $\mathbf{dog} = \mathbf{isA} \circledast \mathbf{canine_{ID}} + \mathbf{partOf} \circledast \mathbf{pack_{ID}}$
+</div>
+
+---Right---
+
 
 <small>
   <https://www.youtube.com/watch?v=uKKpjvPd6Xo>
